@@ -1,0 +1,128 @@
+body {
+    background-image: url("bg_image_final.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    width:980px;
+}
+
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+#wrapper{
+    border:0px solid;
+    width:970px;
+    margin:0px 0px 0px 0px;
+    background-color:transparent;
+}
+
+#header {
+    border: 0px solid;
+    width: 100%;
+    height: 20px;
+}
+
+#header ul{
+    list-style:none;
+}
+
+#header ul li {
+    float: left;
+    border: 0px solid;
+    width: 192px;
+    text-align:center;
+    height:20px;
+    background-color: #79b32c;
+    margin-top:5px;
+}
+#header ul li:hover{
+    background-color:rgba(149, 149, 220, 0.49);
+}
+
+
+#header ul li a {
+    text-decoration: none;
+    color: #000000;
+    height:80px;
+}
+
+#bodypart{
+    margin-top:10px;
+    border:0px solid;
+}
+
+#bodyleft{
+    border:0px solid;
+    float:left;
+    width:230px;
+    height:226px;
+}
+
+ #bodyleft h2 {
+     background-color: #79b32c;
+     padding:4px;
+ }
+
+#bodyleft ul{
+    list-style-type:none;
+}
+
+#bodyleft ul li{
+    border-bottom:1px dotted;
+    padding-left:5px;
+    height:30px;
+    line-height:30px;
+}
+
+    #bodyleft ul li a {
+        color: #0c0745;
+        text-decoration: none;
+        background-color:rgba(121, 179, 44, 0.45);
+    }
+#bodyleft ul li a:hover{
+    color:#ff0000;
+}
+#bodyright{
+    border:0px solid #79b32c; 
+    width:670px;
+    float:left;
+    margin-left:20px;
+}
+#bodyright h2 {
+     background-color: #79b32c;
+     margin-top:1000px;
+     padding:5px;
+}
+    #bodyright p {
+        background-color: rgba(121, 179, 44, 0.25);
+        color: #ffffff;
+        padding:5px;
+        font-family:sans-serif;
+    }
+
+    #footer{
+        border:0px solid;
+        background-color:#cccccc;
+        color:#000000;
+        padding:5px;
+        font-size:12px;
+        margin-bottom:5px;
+        margin-top:2px;
+    }
+#slot {
+    background-color: rgba(121, 179, 44, 0.38);
+}
+
+    #slot h1 {
+        font-family: 'Monotype Corsiva';
+    }
+    #slot h3{
+        padding:5px;
+    }
