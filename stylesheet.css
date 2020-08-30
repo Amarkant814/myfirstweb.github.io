@@ -1,5 +1,5 @@
 body {
-    background-image: url("bg_image_final.jpg");
+    background-image: url("massimiliano-morosinotto-Rvu0szjpUNw-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -87,17 +87,18 @@ body {
         background-color:rgba(121, 179, 44, 0.45);
     }
 #bodyleft ul li a:hover{
-    color:#ff0000;
+    color:#79fcc5;
 }
 #bodyright{
     border:0px solid #79b32c; 
     width:670px;
     float:left;
     margin-left:20px;
+    margin-top: 40px;
 }
 #bodyright h2 {
      background-color: #79b32c;
-     margin-top:1000px;
+     margin-top:10px;
      padding:5px;
 }
     #bodyright p {
@@ -114,7 +115,7 @@ body {
         padding:5px;
         font-size:12px;
         margin-bottom:5px;
-        margin-top:2px;
+        margin-top: 20px;
     }
 #slot {
     background-color: rgba(121, 179, 44, 0.38);
@@ -126,3 +127,13 @@ body {
     #slot h3{
         padding:5px;
     }
+#fill {
+    color: #000000;
+    background-color: #79b32cb9;
+    border: 1px solid;
+    padding: 5px;
+
+}
+del {
+    background-color: #ffffff;
+}
